@@ -21,5 +21,26 @@ const test4 = 'Variables defined with const also can not be redeclared and also 
 
 console.log(test4)
 
+// Type Conversion
 
+console.log('number to string')
+var number = String(8);
+
+//bollon to string
+var bollon = String(true);
+
+// array to string
+var arraydata = String([,1,2,3,7]);
+
+
+// output
+console.log(number);
+console.log(typeof number);
+console.log(number.length);
+
+console.log(bollon);
+console.log(typeof bollon);
+console.log(bollon.length);
+
+console.log(arraydata);
 
