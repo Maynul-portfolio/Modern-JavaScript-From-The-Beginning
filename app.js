@@ -23,24 +23,31 @@ console.log(test4)
 
 // Type Conversion
 
-console.log('number to string')
+// number to string
 var number = String(8);
 
-//bollon to string
+// bollon to string
 var bollon = String(true);
 
-// array to string
+//array to string string
 var arraydata = String([,1,2,3,7]);
 
 
-// output
+// 
+console.log('Type Conversion')
+
+console.log('number to string')
 console.log(number);
 console.log(typeof number);
 console.log(number.length);
 
+console.log('bollon to string')
 console.log(bollon);
 console.log(typeof bollon);
 console.log(bollon.length);
 
+console.log('array to string')
 console.log(arraydata);
+console.log(typeof arraydata);
+console.log()
 
