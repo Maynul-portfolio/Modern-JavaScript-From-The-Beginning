@@ -49,5 +49,49 @@ console.log(bollon.length);
 console.log('array to string')
 console.log(arraydata);
 console.log(typeof arraydata);
-console.log()
+console.log(arraydata.length);
+
+
+console.log('Date funcation');
+
+var date = new Date();
+
+console.log(date);
+
+console.log(date.toDateString());
+console.log(date.getHours());
+
+console.log('if eles statment');
+
+const time = new Date().getHours();
+
+if (time < 10 ){
+    console.log('Good morning')
+}else if (time < 20){
+    console.log('Have a good day')
+}else{
+    console.log('good evening')
+}
+
+
+
+const Day_name =  date.getDay();
+
+if (Day_name == 1){
+    console.log('Monday')
+} else if(Day_name == 2){
+    console.log('Tuesday')
+} else if(Day_name == 3){
+    console.log('WednesDay')
+} else if(Day_name == 4){
+    console.log('ThuresDay')
+} else if(Day_name == 5){
+    console.log('friDay')
+}else if (Day_name == 6){
+    console.log('SaturDay')
+}else{
+    console.log('sunday')
+}
+
+console.log('switch');
 
