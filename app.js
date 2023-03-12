@@ -93,5 +93,45 @@ if (Day_name == 1){
     console.log('sunday')
 }
 
-console.log('switch');
+console.log('switch_statment');
 
+const today = date.getDay();
+
+switch(today){
+    case 1:
+        console.log('Today is Monday')
+        break
+    case 2:
+        console.log('Today is Tuesday')
+        break
+    case 3:
+        console.log('Today is Wednesday')
+        break
+    case 4:
+        console.log('Today is Thurday')
+        break
+    case 5:
+        console.log('Today is Fieday')
+        break
+    case 6:
+        console.log('Today is  Saterday')
+    default:
+        console.log('Today is Sunday')
+
+}
+
+
+console.log('and or oprator')
+
+var a =10;
+var b= 20;
+var c = 30;
+var d = 40;
+
+
+if (a > b && c > d){
+    console.log('a is gater than b and c is gather d')
+
+}else{
+    console.log('at last one is fals')
+}
